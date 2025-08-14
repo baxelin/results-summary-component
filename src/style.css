@@ -1,0 +1,57 @@
+:root {
+    /* Primary Color */
+    --color-red: hsl(0, 100%, 67%);
+    --color-yellow: hsl(39, 100%, 56%);
+    --color-teal: hsl(166, 100%, 37%);
+    --color-blue: hsl(234, 85%, 45%);
+
+    /* Gradients */
+    --color-slate-blue: hsl(252, 100%, 67%);
+    --color-royal-blue: hsl(241, 81%, 54%);
+
+    --color-violet-blue: hsla(256, 72%, 46%, 1);
+    --color-persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* Neutral */
+    --color-pale-blue: hsl(221, 100%, 96%);
+    --color-light-lavender: hsl(241, 100%, 89%);
+    --color-dark-gray-blue: hsl(224, 30%, 27%);
+
+    /* Font Wheights */
+    --sm-whg: 500;
+    --md-whg: 700;
+    --lg-whg: 800;
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    background-color: var(--color-pale-blue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.card {
+    width: 50rem;
+    height: 25rem;
+    display: grid;
+    background-color: aquamarine;
+}
+
+.score-card {
+    background-color: var(--color-slate-blue);
+}
+
+.summary-card {
+    background-color: white;
+}
+
+.score-card h1, h2 {
+    font-size: 1.5rem;
+}
+
+.score {
+    font-size: 4rem;
+}
